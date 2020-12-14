@@ -10,7 +10,7 @@ spring:
     stream:
       kafka:
         binder:
-          brokers: 192.168.1.212:9092
+          brokers: localhost:9092
           minPartitionCount: 1
           autoCreateTopics: true
           autoAddPartitions: true
